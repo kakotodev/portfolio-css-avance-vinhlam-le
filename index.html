@@ -5,16 +5,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <script href="/main.js"></script>
 </head>
-<body>
+<body class="poppins-thin">
     <header>
         <section class="header-section">
             <div class="header-div" id="div-left">
                 <image src="/img/wooden sword.png" alt="wooden sword" class="header-img"></image>
                 <li class="header-li" id="li-left">
-                    <ul>Exemple 1</ul>
-                    <ul>Exemple 2</ul>
-                    <ul>Exemple 3</ul>
+                    <button class="poppins-medium" id="button_presentation" onclick="window.location.href='#sub-1'">Présentation</button>
+                    <button class="poppins-medium" id="button_competence" onclick="window.location.href='#sub-2'">Compétence</button>
+                    <button class="poppins-medium" id="button_experience" onclick="window.location.href='#sub-3'">Experience</button>
                 </li>
             </div>
             <div class="header-div" id="div-middle">
@@ -23,9 +27,6 @@
             </div>
             <div class="header-div" id="div-right">
                 <li class="header-li" id="li-right">
-                    <ul>Exemple 1</ul>
-                    <ul>Exemple 2</ul>
-                    <ul>Exemple 3</ul>
                 </li>
             </div>
         </section>    
@@ -33,19 +34,17 @@
     <main>
         <section class="main-container" id="container-left">
             <div class="div-container">
-                <h1>Premier Section : Presentation</h1>
+                <h1>Présentation</h1>
                 <section class="sub-container" id="sub-1">
                     <section class="pfp-section">
-                        <image class="pfp-icon"src="/img/pp.jpg" alt="le plus beau"></image>
+                        <img class="pfp-icon"src="/img/pp.jpg" alt="le plus beau"></img>
                     </section>
                     <section class="text-section">
-                        <p> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Error esse quas eligendi harum dolore sequi hic enim optio dignissimos exercitationem eveniet odio rerum, mollitia iste magnam. Consequuntur, veniam doloribus. Nisi! 
-                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis minus fugit alias dolorum, animi veniam corporis provident nisi neque ratione. Quisquam aliquid quod porro cumque sit culpa nihil error dolorum!
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto facilis modi doloremque est odio molestias, exercitationem commodi provident magni maiores aliquam dicta illum libero beatae, quia rerum repellendus quos eos!
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat ipsam quia laudantium molestiae, sunt numquam rem, cum dolore autem excepturi adipisci, laborum incidunt deleniti et voluptate veniam sed iusto quos?
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti nostrum aperiam debitis, sapiente dignissimos nisi provident omnis harum ipsum quo ea aliquid rerum, repellendus delectus quis impedit, odit vitae molestiae.
-                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eius quos beatae animi fugiat. Nulla enim debitis natus. Ipsa reprehenderit, cumque voluptas deserunt vitae exercitationem magnam ipsum quasi itaque, rem unde.
-                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos iusto suscipit a unde voluptatem maiores repellat commodi consequuntur obcaecati molestias porro, sed, quidem omnis quam minima. Eveniet esse delectus atque.
+                        <p class="poppins-regular"> 
+                            Bonjour,Je m'appelle Lam, et je suis étudiant à l'Efrei, dans le Bachelor Développeur Web et Application. Ce qui me caractérise le plus, c’est ma passion pour l'informatique et mon envie constante de découvrir de nouvelles choses. 
+                            Ces deux centres d’intérêt occupent une place importante dans ma vie et reflètent ma curiosité et mon soif d’exploration.À titre personnel et académique, je m’investis dans des projets concrets tels que la création de sites web, le développement logiciel et la conception d’algorithmes. 
+                            Ces activités me permettent d’explorer différents aspects de l’informatique, de perfectionner mes compétences techniques et de mobiliser ma créativité. Mon objectif actuel est de continuer à évoluer dans le domaine du développement web et logiciel, tout en découvrant de nouvelles technologies et en participant à des projets collaboratifs et innovants.
+                            Je suis toujours motivé par des valeurs comme l’innovation, l’apprentissage continu et le dépassement de soi, et j’aime particulièrement relever des défis qui me permettent de progresser sur le plan personnel et professionnel.Pour finir, je considère chaque projet et chaque échange comme une opportunité d’enrichir mon parcours et de nouer des liens inspirants avec d’autres passionnés du domaine.  
                         </p>
                     </section>
                 </section>
@@ -53,7 +52,7 @@
         </section>
         <section  class="main-container" id="container-right">
             <div class="div-container" id="div-container-right-1">
-                <h1>Deuxieme Section : Competence</h1>
+                <h1>Compétence</h1>
                 <section class="sub-container-2" id="sub-2">
                     <div class="container-language" id="container-language-left">
                         <h2>FRONT-END</h2>
@@ -91,14 +90,14 @@
         </section>
         <section class="main-container" id="container-left">
             <div class="div-container">
-                <h1>Troisieme Section : Background</h1>
+                <h1>Experience</h1>
                 <section class="sub-container" id="sub-3">
                     <img src="/img/Logo_Efrei.png" alt="Ecole Efrei" class="sub-3-img"></img>
                     <div>
                         <h2>Bachelor Developer Web & App</h2>
                         <h3>2024-2027</h3>
                         <a>
-                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellendus omnis distinctio nobis earum facilis reiciendis nihil eveniet corrupti at, cumque perspiciatis aperiam exercitationem magni, est sed odio alias! Quaerat, excepturi?
+                            Étudiant en Bachelor Developer Web & App à l’Efrei Paris (2024-2027)
                         </a>  
                     </div>      
                 </section>
@@ -107,7 +106,7 @@
                         <h2>Lycée Géneral : Spécialités Numerique Science Informatique</h2>
                         <h3>2022-2024</h3>
                         <a>
-                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellendus omnis distinctio nobis earum facilis reiciendis nihil eveniet corrupti at, cumque perspiciatis aperiam exercitationem magni, est sed odio alias! Quaerat, excepturi?
+                            De 2022 à 2024, j'ai suivi un cursus au lycée général avec une spécialité en Numérique et Sciences Informatiques. Cette formation m'a permis de développer des bases solides en programmation, algorithmique et compréhension des systèmes numériques, renforçant mon intérêt pour les technologies et l'innovation.
                         </a>  
                     </div>      
                 </section>
@@ -118,13 +117,14 @@
         <section class="footer-section">
             <div class="footer-container">
                 <div class="div-social-network">
+                    <a>Mes réseaux sociaux : </a>
                     <li>
-                        <input type="image" class="input-img" href="" src="" alt="GitHub"></input>
-                        <input type="image" class="input-img" href="" src="" alt="Linkldln"></input>
-                        <input type="image" class="input-img" href="" src="" alt="Discord"></input>
+                        <input type="image" class="input-img" href="https://github.com/kakotodev" src="/img/GitHub-Logo.png" alt="GitHub"></input>
+                        <input type="image" class="input-img" href="" src="/img/linkedln_logo.png" alt="Linkldln"></input>
+                        <input type="image" class="input-img" href="" src="/img/discord_logo.png" alt="Discord"></input>
                     </li> 
                     <div class="div-information-update">
-                        <p>V1.0</p>
+                        <p>V1.1</p>
                         <p>28/03/2025</p>
                     </div>
                 </div>
