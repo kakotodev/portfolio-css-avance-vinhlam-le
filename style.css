@@ -1,0 +1,170 @@
+/* CSS --> Lam */
+/* scss */
+body {
+  background-color: white;
+  width: auto;
+  height: 100%;
+}
+
+header {
+  display: flex;
+  border: solid;
+  padding-bottom: 2em;
+  margin-bottom: 4em;
+}
+header section.header-section {
+  display: flex;
+  width: 100%;
+  height: auto;
+  border: solid;
+  border-color: blue;
+}
+header div.header-div {
+  display: flex;
+}
+header div#div-left {
+  width: 40%;
+}
+header div#div-middle {
+  width: 20%;
+  justify-content: center;
+}
+header div#div-right {
+  width: 40%;
+  justify-content: flex-end;
+}
+header img.header-img {
+  display: flex;
+  max-width: 100%;
+  max-height: auto;
+  width: 5em;
+  height: auto;
+}
+header li.header-li {
+  display: flex;
+  border: solid;
+  border-color: green;
+  align-items: center;
+}
+
+main {
+  height: 100%;
+  width: 100%;
+  border: solid;
+}
+main section.main-container {
+  border: solid;
+  border-color: blue;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+main section#container-right {
+  display: flex;
+  justify-content: flex-end;
+}
+main section.sub-container {
+  display: grid;
+  margin: 0.8em;
+  border: solid;
+  border-color: green;
+}
+main section#sub-1 {
+  grid-template-columns: 20% 80%;
+}
+main section#sub-2 {
+  grid-template-columns: 90%;
+  grid-template-rows: repeat(5, 100%);
+}
+main section#sub-3 {
+  display: flex;
+}
+main section.pfp-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main section.text-section {
+  margin: 1em;
+}
+main div.div-container {
+  margin: 0.5em;
+  width: 80%;
+  border-color: red;
+  border: solid;
+}
+main div#div-container-right-1 {
+  grid-template-rows: repeat(4, 100%);
+}
+main div.container-language {
+  display: flex;
+  flex-direction: column;
+  border: solid;
+  border-color: green;
+  margin: 2em;
+}
+main h1 {
+  display: flex;
+  margin-top: 0px;
+  justify-content: center;
+}
+main img.pfp-icon {
+  border-radius: 50%;
+  width: 14em;
+  height: 14em;
+}
+main img.sub-2-img {
+  height: 5em;
+  width: auto;
+}
+main img.sub-3-img {
+  height: 10em;
+  width: auto;
+  margin: 2em;
+  padding: 2em;
+  border: solid;
+}
+main p {
+  display: flex;
+}
+
+footer {
+  border: solid;
+  margin-top: 3em;
+  padding: 2em;
+}
+
+section {
+  border: solid;
+}
+
+div.div-social-network {
+  display: flex;
+  border: solid;
+  border-color: purple;
+  padding: 1em;
+}
+div.div-information-update {
+  width: 20%;
+  border: solid;
+  border-color: blue;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+li {
+  border: solid;
+  border-color: red;
+  padding: 1em;
+  width: 80%;
+  list-style: none;
+  text-decoration: none;
+}
+
+ul {
+  padding-left: 0%;
+  margin: 1em;
+}
+
+/*# sourceMappingURL=style.css.map */
